@@ -1,0 +1,10 @@
+spring:
+  jdbc:
+    datasource:
+      driverClassName: com.mysql.jdbc.Driver
+      url: jdbc:mysql:///springboot_01
+      username: root
+      password:
+  profiles:
+    active: jdbc
+    #总配置文件
